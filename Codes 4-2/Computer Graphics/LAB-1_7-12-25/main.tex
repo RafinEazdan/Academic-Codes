@@ -1,0 +1,188 @@
+% Lab 1 — DDA and Bresenham Line Drawing Report
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{titling}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+
+% Color definitions
+\definecolor{darkblue}{HTML}{1A3A52}
+\definecolor{lightgreen}{HTML}{90EE90}
+\definecolor{coralred}{HTML}{FF6B6B}
+\definecolor{gold}{HTML}{FFD700}
+
+% Code styling
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+  keywordstyle=\color{darkblue}\bfseries,
+  stringstyle=\color{coralred},
+  commentstyle=\color{gray},
+  showstringspaces=false,
+  language=Python
+}
+
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+
+\title{{\color{darkblue}\huge Lab 1: DDA \& Bresenham Line Drawing Algorithms}}
+\author{{\color{darkblue}Computer Graphics Laboratory}}
+\date{{\color{darkblue}\today}}
+
+\begin{document}
+\maketitle
+
+\begin{tcolorbox}[colback=lightgreen!20, colframe=darkblue, title=\textbf{Overview}]
+This lab explores two fundamental line rasterization algorithms in computer graphics: the \textbf{Digital Differential Analyzer (DDA)} and \textbf{Bresenham's algorithm}. Both convert continuous geometric lines into discrete pixels for display on raster displays.
+\end{tcolorbox}
+
+\section{Objectives}
+\begin{tcolorbox}[colback=gold!15, colframe=gold!60]
+\begin{itemize}
+  \item \textbf{Understand DDA:} Implement the Digital Differential Analyzer algorithm for line rasterization using floating-point slope calculations.
+  
+  \item \textbf{Understand Bresenham:} Implement Bresenham's integer-only line algorithm that eliminates floating-point arithmetic for improved efficiency.
+  
+  \item \textbf{Compare methods:} Analyze trade-offs in precision, performance, and handling of edge cases (e.g., vertical/horizontal lines, various slopes).
+\end{itemize}
+\end{tcolorbox}
+
+\section{Algorithm Description}
+
+\subsection{DDA Line Drawing}
+\textcolor{darkblue}{\textbf{The Digital Differential Analyzer}}
+
+The DDA algorithm rasterizes a line segment by computing pixel coordinates based on the line's slope:
+
+\begin{enumerate}
+  \item \textbf{Calculate differences:} $\Delta x = x_2 - x_1$, $\Delta y = y_2 - y_1$
+  \item \textbf{Compute slope:} $m = \frac{\Delta y}{\Delta x}$ (special handling when $\Delta x = 0$ for vertical lines)
+  \item \textbf{Iterate over $x$:} For each integer $x$ from $x_1$ to $x_2$, compute $y = y_1 + m(x - x_1)$
+  \item \textbf{Rasterize:} Plot pixel at $(x, \mathrm{round}(y))$
+\end{enumerate}
+
+\textcolor{coralred}{\textit{Advantage:}} Simple and intuitive. \quad \textcolor{coralred}{\textit{Disadvantage:}} Uses floating-point division and multiplication; rounding errors can accumulate.
+
+\subsection{Bresenham Line Drawing}
+\textcolor{darkblue}{\textbf{The Integer-Only Algorithm}}
+
+Bresenham's algorithm achieves line rasterization using \textbf{only integer arithmetic}, making it faster and avoiding rounding errors:
+
+\begin{enumerate}
+  \item \textbf{Compute absolute differences:} $dx = |x_2 - x_1|$, $dy = |y_2 - y_1|$
+  \item \textbf{Set step directions:} $x\_step, y\_step \in \{-1, +1\}$ based on line direction
+  \item \textbf{Initialize decision parameter:} $p$ used to decide which pixel to choose next
+  \item \textbf{Two cases:}
+    \begin{itemize}
+      \item \textbf{If } $dx > dy$ (shallow slope): iterate over $x$, incrementally update $p$
+      \item \textbf{If } $dy \geq dx$ (steep slope): iterate over $y$, incrementally update $p$
+    \end{itemize}
+\end{enumerate}
+
+\textcolor{coralred}{\textit{Advantage:}} Integer-only, highly efficient. \quad \textcolor{coralred}{\textit{Disadvantage:}} More complex logic; branch for slope handling.
+
+
+\section{Code Implementation}
+
+\subsection{DDA Algorithm}
+\textcolor{darkblue}{\textbf{Python implementation from notebook:}}
+
+\begin{tcolorbox}[colback=gray!5, colframe=darkblue!60]
+\small\ttfamily
+\textcolor{darkblue}{\textbf{def}} DDA\_Line(x1, y1, x2, y2):\\
+\textcolor{gray!60}{\qquad{}}dx = x2 - x1\\
+\textcolor{gray!60}{\qquad{}}dy = y2 - y1\\
+\textcolor{gray!60}{\qquad{}}m = dy / dx \textcolor{darkblue}{\textbf{if}} dx != 0 \textcolor{darkblue}{\textbf{else}} None\\
+\textcolor{gray!60}{\qquad{}}x\_points, y\_points = [], []\\
+\textcolor{gray!60}{\qquad{}}\textcolor{darkblue}{\textbf{if}} dx != 0:\\
+\textcolor{gray!60}{\qquad{}\qquad{}}step = 1 \textcolor{darkblue}{\textbf{if}} x2 > x1 \textcolor{darkblue}{\textbf{else}} -1\\
+\textcolor{gray!60}{\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{for}} x \textcolor{darkblue}{\textbf{in}} range(x1, x2 + step, step):\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}y = y1 + m * (x - x1)\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}x\_points.append(x); y\_points.append(round(y))\\
+\textcolor{gray!60}{\qquad{}}\textcolor{darkblue}{\textbf{else}}:\\
+\textcolor{gray!60}{\qquad{}\qquad{}}step = 1 \textcolor{darkblue}{\textbf{if}} y2 > y1 \textcolor{darkblue}{\textbf{else}} -1\\
+\textcolor{gray!60}{\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{for}} y \textcolor{darkblue}{\textbf{in}} range(y1, y2 + step, step):\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}x\_points.append(x1); y\_points.append(y)
+\end{tcolorbox}
+
+\subsection{Bresenham Algorithm}
+\textcolor{darkblue}{\textbf{Python implementation from notebook:}}
+
+\begin{tcolorbox}[colback=gray!5, colframe=darkblue!60]
+\small\ttfamily
+\textcolor{darkblue}{\textbf{def}} bresenham\_line(x1, y1, x2, y2):\\
+\textcolor{gray!60}{\qquad{}}dx, dy = abs(x2 - x1), abs(y2 - y1)\\
+\textcolor{gray!60}{\qquad{}}x\_step = 1 \textcolor{darkblue}{\textbf{if}} x1 < x2 \textcolor{darkblue}{\textbf{else}} -1\\
+\textcolor{gray!60}{\qquad{}}y\_step = 1 \textcolor{darkblue}{\textbf{if}} y1 < y2 \textcolor{darkblue}{\textbf{else}} -1\\
+\textcolor{gray!60}{\qquad{}}x, y = x1, y1\\
+\textcolor{gray!60}{\qquad{}}x\_points, y\_points = [x], [y]\\
+\textcolor{gray!60}{\qquad{}}\textcolor{darkblue}{\textbf{if}} dx > dy:\\
+\textcolor{gray!60}{\qquad{}\qquad{}}p = 2 * dy - dx\\
+\textcolor{gray!60}{\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{for}} \_ \textcolor{darkblue}{\textbf{in}} range(dx):\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}x += x\_step\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{if}} p < 0: p += 2 * dy\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{else}}: y += y\_step; p += 2*dy - 2*dx\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}x\_points.append(x); y\_points.append(y)\\
+\textcolor{gray!60}{\qquad{}}\textcolor{darkblue}{\textbf{else}}:\\
+\textcolor{gray!60}{\qquad{}\qquad{}}p = 2 * dx - dy\\
+\textcolor{gray!60}{\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{for}} \_ \textcolor{darkblue}{\textbf{in}} range(dy):\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}y += y\_step\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{if}} p < 0: p += 2 * dx\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}\textcolor{darkblue}{\textbf{else}}: x += x\_step; p += 2*dx - 2*dy\\
+\textcolor{gray!60}{\qquad{}\qquad{}\qquad{}}x\_points.append(x); y\_points.append(y)
+\end{tcolorbox}
+
+\section*{Output}
+\begin{tcolorbox}[colback=lightgreen!20, colframe=darkblue!50]
+\textbf{\textcolor{darkblue}{Example Case:}} Line from $(x_1, y_1) = (2, 3)$ to $(x_2, y_2) = (10, 7)$
+
+\textbf{DDA Output:} Green markers with smooth rasterization following the line's slope $m = \frac{4}{8} = 0.5$. Pixel coordinates computed using floating-point arithmetic and rounded.
+
+\textbf{Bresenham Output:} Blue markers with crisp integer-only rasterization. No floating-point errors or cumulative rounding drift.
+
+Both algorithms produce visually similar results, but Bresenham is more efficient and precise for real-time graphics applications.
+\end{tcolorbox}
+
+\section*{Discussion}
+
+\begin{enumerate}
+  \item \textbf{\textcolor{coralred}{Precision and Accuracy}}
+  \begin{itemize}
+    \item \textbf{DDA:} Uses floating-point arithmetic; subject to rounding errors and cumulative drift over long lines.
+    \item \textbf{Bresenham:} Integer-only arithmetic eliminates floating-point errors; rasterization is exact and reproducible.
+  \end{itemize}
+
+  \item \textbf{\textcolor{coralred}{Performance}}
+  \begin{itemize}
+    \item \textbf{DDA:} Requires division (to compute slope) and multiplication at each iteration—expensive.
+    \item \textbf{Bresenham:} Only addition and bit shifts (powers of 2); highly optimized for hardware implementation.
+  \end{itemize}
+
+  \item \textbf{\textcolor{coralred}{Slope Handling}}
+  \begin{itemize}
+    \item \textbf{DDA:} Single unified loop; naturally handles all slopes but with floating-point overhead.
+    \item \textbf{Bresenham:} Branches into two cases ($|m| < 1$ vs. $|m| \ge 1$) for optimal integer decisions; more complex logic.
+  \end{itemize}
+
+  \item \textbf{\textcolor{coralred}{Generalization}}
+  \begin{itemize}
+    \item The incremental-error concept used by Bresenham extends beautifully to circle drawing, as demonstrated in the Bresenham Circle algorithm in the notebook.
+    \item Modern GPUs still employ variants of Bresenham for anti-aliased rasterization.
+  \end{itemize}
+
+  \item \textbf{\textcolor{coralred}{Conclusion}}
+  \begin{itemize}
+    \item For teaching and understanding rasterization, DDA's simplicity is pedagogically valuable.
+    \item For production systems and real-time graphics, Bresenham's efficiency, accuracy, and integer-only design make it superior.
+  \end{itemize}
+\end{enumerate}
+
+\end{document}
