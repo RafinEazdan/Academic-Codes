@@ -1,0 +1,10 @@
+============= INTERMEDIATE CODE===============
+  0: start              -1
+  1: ld_int              2
+  2: store               0
+  3: ld_int              3
+  4: ld_var              0
+  5: add                -1
+  6: store               1
+  7: print_int_value     1
+  8: halt               -1

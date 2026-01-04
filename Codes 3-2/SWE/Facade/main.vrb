@@ -1,0 +1,33 @@
+\frametitle{C++ Code Example}
+\begin{lstlisting}
+    // Facade Design Pattern in C++
+    #include <iostream>
+    using namespace std;
+
+    class Light {
+    public:
+        void dim() { cout << "Lights dimmed.\n"; }
+    };
+
+    class MusicSystem {
+    public:
+        void play() { cout << "Playing music.\n"; }
+    };
+
+    class HomeTheaterFacade {
+        Light light;
+        MusicSystem music;
+    public:
+        void activateMovieMode() {
+            cout << "Activating Movie Mode...\n";
+            light.dim();
+            music.play();
+        }
+    };
+
+    int main() {
+        HomeTheaterFacade theater;
+        theater.activateMovieMode();
+        return 0;
+    }
+    \end{lstlisting}

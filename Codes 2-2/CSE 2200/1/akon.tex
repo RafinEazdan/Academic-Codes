@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage[a4 paper]{geometry}
+
+% \renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumii}{(\Alph{enumii})}
+\renewcommand{\labelenumiii}{(\alph{enumiii})}
+\renewcommand{\labelenumiv}{(\roman{enumiv})}
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{(\Alph{enumii})}
+\renewcommand{\theenumiii}{(\alph{enumiii})}
+\renewcommand{\theenumiv}{(\roman{enumiv})}
+
+
+\begin{document}
+\huge
+\section{introduction}
+\section{body}
+\subsection{this is a subsection}
+\huge
+\subsubsection*{we call it subsubsection}
+\section{conclution}
+
+
+% listing
+
+\textit{\textbf{now, we will move to listing}}
+\begin{enumerate}
+    \item this is a item
+    \begin{enumerate}
+        \item first item
+        \item 2nd item
+    \end{enumerate}
+    \item this is a item
+    \item this is a item
+    \item this is a item
+\end{enumerate}
+
+\pagebreak
+we talk about bihar in section \ref{biharr}
+
+one Asian countries and their various places are listed below:
+\begin{enumerate}
+    \item India
+    \medskip % inserts a blank line
+    \begin{enumerate}
+        \item Asam
+        \begin{enumerate}
+            \item Sonutpur
+            \begin{enumerate}
+                \item tejpur
+                \item Bihar\label{biharr} %edare onno jaygay move krlei level r khela bujte prbo
+                \item Delikhal
+                \item balipara
+                \medskip % inserts a blank line
+            \end{enumerate}
+            \item Kamrup
+            \item Cachar
+            \medskip % inserts a blank line
+        \end{enumerate}
+        \item Punjab
+    \end{enumerate}
+    \medskip % inserts a blank line
+    \item Sri Lanka
+\end{enumerate}
+
+
+\pagebreak
+\begin{itemize}
+    \item India
+    \begin{itemize}
+        \item Asam
+        \begin{itemize}
+            \item Sonutpur
+            \begin{itemize}
+                \item tejpur
+                \item Delikhal
+                \item balipara
+            \end{itemize}
+            \item Kamrup
+            \item Cachar
+        \end{itemize}
+        \item Bihar
+        \item Punjab
+    \end{itemize}
+    \item Sri Lanka
+\end{itemize}
+
+
+
+\end{document}

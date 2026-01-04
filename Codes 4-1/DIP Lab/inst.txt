@@ -1,0 +1,26 @@
+Python:
+    array, loop, list
+
+Library:
+OpenCV => preffered by sir
+sci-kit image
+pillow
+
+MatplotLib:
+    subplot
+
+OpenCV's default color space = BGR (not RGB)
+
+
+Tasks:
+1. Read an image and show
+2. channel separation --> RGB pixel separation cv2.split
+3. shape of the image
+4. BGR -> RGB conversion
+    or BGR -> gray 
+    img1 = cv2.cvtcolor(img, RGB->gray)
+
+5. Resize and crop the image
+6. plotting the image in MatplotLib using subplot
+
+Report: verdict and insights of today's work

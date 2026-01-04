@@ -1,0 +1,7 @@
+Q1. Consider the following code snippet:  
+
+Def INT x = 8; 
+
+IF x > 7 THEN x = x + 'C'; 
+
+ a) Perform Lexical Analysis on the given code snippet. b) Perform Syntax Analysis on the given code snippet. c) Perform Semantic Analysis on the given code snippet.

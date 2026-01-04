@@ -1,0 +1,2 @@
+DEF INT x = 8;
+IF x > 7 THEN x = x + 'C';

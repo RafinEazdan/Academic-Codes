@@ -1,0 +1,2 @@
+Writ; a program that lets the user type some text, consisting of words separated by blanks, ending with a carriage return, and displays the text in the same word order as entered, but with the letters ·in each word reversed. For example, "this is a test" becomes
+"siht si a tset".

@@ -1,0 +1,151 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{cite}
+\geometry{a4paper, margin=1in}
+
+\title{Gas Leakage Detection System Using Arduino and MQ-2 Gas Sensor}
+\author{
+    \IEEEauthorblockN{Eazdan Mostafa Rafin}
+    \IEEEauthorblockA{
+        Roll: 2003055\\
+        Department of Computer Science and Engineering\\
+        Rajshahi University of Engineering and Technology \\
+        Email: 2003055@student.ruet.ac.bd}
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+Gas leaks can lead to fires, explosions, and other dangerous circumstances.  Detecting gas leaks early is crucial for assuring safety in contexts where gases like LPG, methane, and propane are employed.  The goal of this project is to create a gas leak detection system that uses a MQ-2 gas sensor connected to an Arduino Uno.  When gas concentrations exceed a safe threshold, the system sends both visual and auditory alerts.
+\section{System Design}
+The circuit comprises an MQ-2 gas sensor, an Arduino Uno, LEDs, and a buzzer. The MQ-2 sensor detects the gas concentration and outputs an analog signal to the Arduino. When the gas concentration exceeds a predetermined threshold, the Arduino sounds a buzzer and turns on a red LED to inform users.  A green LED signifies a safe atmosphere.
+
+\subsection{Components Used}
+\begin{itemize}
+  \item \textbf{MQ-2 Gas Sensor}: MQ-2 gas sensor etects the concentration of LPG, methane, and propane in the air.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{"D:/mq-2-flammable-gas-smoke-sensor-robotics-bangladesh.jpg"} % Add the correct path to the image file
+    \caption{MQ-2 Gas Sensor}
+    \label{fig:circuit}
+\end{figure}
+  \item \textbf{Arduino Uno}: A microcontroller is used for reading sensor(MQ-2) values and controlling outputs.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{"D:/Arduino_Uno_-_R3.jpg"} % Add the correct path to the image file
+    \caption{Arduino UNO}
+    \label{fig:circuit}
+\end{figure}
+  \item \textbf{Buzzer}: Buzzer provides an audio alert when a gas leak is detected by the sensor.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{"D:/612HbjdQt1L.jpg"} % Add the correct path to the image file
+    \caption{Buzzer}
+    \label{fig:circuit}
+\end{figure}
+  \item \textbf{LEDs (Red and Green)}: LEDs indicate the safety status triggered by the sensor.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{"D:/51kzW9mvzQL._SL1100_.jpg"} % Add the correct path to the image file
+    \caption{LED: Red & Green}
+    \label{fig:circuit}
+\end{figure}
+  \item \textbf{Breadboard and Jumper Wires}: Breadboard and wires are used for circuit assembly.
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{"D:/medium-size-breadboard-24032-16-B-1.jpg"} % Add the correct path to the image file
+    \caption{Breadboard}
+    \label{fig:circuit}
+\end{figure}
+\end{itemize}
+
+\section{System Schematic}
+Figure-6 shows the schematic of the gas leakage detection system. The MQ-2 gas sensor connects to the Arduino's analog input pin A0, while the LEDs and buzzer are connected to digital pins.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{"D:/Gas_Sensor.png"} % Add the correct path to the image file
+    \caption{Circuit Diagram of Gas Leakage Detection System}
+    \label{fig:circuit}
+\end{figure}
+
+\section{Code Implementation}
+The following Arduino code reads the gas concentration from the MQ-2 sensor and triggers the buzzer and red LED if the concentration exceeds a certain threshold i.e.400\cite{galceran2023development} .
+
+\begin{lstlisting}[language=C++, caption=Arduino Code for Gas Leakage Detection, basicstyle=\ttfamily\footnotesize, keywordstyle=\color{blue}]
+int gasSensorPin = A0;  // Pin to read gas sensor data
+int threshold = 400;    // Threshold for dangerous gas levels
+int ledGreen = 7;       // Green LED for safe condition
+int ledRed = 6;         // Red LED for gas detected
+int buzzer = 8;         // Buzzer for alarm
+
+void setup() {
+  pinMode(ledGreen, OUTPUT);
+  pinMode(ledRed, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+  Serial.begin(9600);   // Initialize serial communication for monitoring
+}
+
+void loop() {
+  int gasLevel = analogRead(gasSensorPin);  // Read the gas sensor value
+  Serial.print("Gas Level: ");
+  Serial.println(gasLevel);                 // Output the gas level
+
+  if (gasLevel > threshold) {
+    digitalWrite(ledRed, HIGH);             // Turn on red LED for gas detected
+    digitalWrite(buzzer, HIGH);             // Activate buzzer for alarm
+    digitalWrite(ledGreen, LOW);            // Turn off green LED
+  } else {
+    digitalWrite(ledGreen, HIGH);           // Turn on green LED for safe condition
+    digitalWrite(ledRed, LOW);              // Turn off red LED
+    digitalWrite(buzzer, LOW);              // Deactivate buzzer
+  }
+
+  delay(1000);  // Wait for 1 second before reading again
+}
+\end{lstlisting}
+
+\section{Output}
+The system operates in two modes:
+\begin{itemize}
+    \item \textbf{Safe Condition}: When gas levels are below the threshold (400), the green LED remains lit, indicating a safe environment, and the buzzer is off.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{"D:/Screenshot 2024-10-03 124426.png"} % Use proper path
+    \caption{Gas Leakage Detection System in Safe Mode}
+    \label{fig:safe_mode}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Gas Leak Detected}: When gas levels surpass the threshold, a buzzer sounds and a red LED illuminates to warn users of the hazard, .
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{"D:/Screenshot 2024-10-03 124406.png"} % Use proper path
+    \caption{Circuit Condition When Gas Leak is Detected}
+    \label{fig:gas_leak}
+\end{figure}
+
+The current gas level is also printed on the serial monitor for real-time monitoring.
+
+
+\section{Conclusion}
+The gas leakage detection system is an efficient and cost-effective method for continually monitoring gas concentration levels, providing early warning of potential hazards. Using a MQ-2 gas sensor and an Arduino, this system generates real-time alerts via LEDs and a buzzer, providing users with quick feedback. Looking ahead, this system may be upgraded with features such as remote notifications via a Wi-Fi module and an automatic gas shutoff mechanism, which will considerably improve safety and responsiveness in emergency situations.
+
+\bibliographystyle{plain} % Choose the style (e.g., plain, unsrt, alpha)
+\bibliography{references}
+\end{document}

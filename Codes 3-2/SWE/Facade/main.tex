@@ -1,0 +1,192 @@
+\documentclass{beamer}
+
+% Theme selection
+\usetheme{metropolis}
+ % You can choose from various themes like Berlin, AnnArbor, etc.
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\setbeamertemplate{section page}{}
+\setbeamertemplate{subsection page}{}
+
+% Code Style
+\lstset{
+    language=C++,                % Set language to C++
+    basicstyle=\ttfamily\footnotesize, % Monospace font, small size
+    frame=shadowbox,             % Add a shadowed frame around the code
+    rulesepcolor=\color{gray},   % Frame border color
+    numbers=left,                % Add line numbers on the left
+    numberstyle=\tiny\color{gray}, % Line number style
+    breaklines=true,             % Automatically break long lines
+    keywordstyle=\color{blue},   % Color for keywords
+    commentstyle=\color{green!50!black}, % Color for comments
+    stringstyle=\color{red},     % Color for strings
+    showstringspaces=false,      % Do not show underscores in strings
+}
+
+% Title Page Details
+\title{Facade Design Pattern}
+\subtitle{Simplifying Complex Systems}
+\author{  
+Md Mehedi Hasan Maruf-2003037  \and
+Md Shahidul Islam Dipu-2003040 \and \\
+Eazdan Mostafa Rafin-2003055
+}
+\institute{Department of Computer Science and Engineering, RUET}
+\date{\today}
+
+% Begin Document
+\begin{document}
+
+% Title Slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Table of Contents
+% \begin{frame}{Agenda}
+%     \tableofcontents
+% \end{frame}
+
+% Section 1: Introduction
+
+\begin{frame}{What is a Design Pattern?}
+    \begin{itemize}
+        \item Reusable solutions to common software design problems
+        \item Not code, but templates for solving problems
+        \item Enhance code maintainability and scalability
+    \end{itemize}
+    \vspace{0.5cm}
+    \textbf{Types of Design Patterns:}
+    \begin{itemize}
+        \item \textbf{Creational Patterns}
+        \item \textbf{Structural Patterns} 
+        \item \textbf{Behavioral Patterns} 
+    \end{itemize}
+\end{frame}
+
+% Section 2: Facade Design Pattern Overview
+
+\begin{frame}{Facade Design Pattern}
+    \begin{itemize}
+        \item \textbf{Type:} Structural Design Pattern
+        \item \textbf{Objective:}
+        \begin{itemize}
+            \item Provide a simplified interface to complex subsystems.
+            \item Reduce dependencies between the client and subsystem classes.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
+% Section 3: When to Use
+
+\begin{frame}{When to Use Facade}
+    \begin{itemize}
+        \item Complex Subsystems with many interdependent classes
+        \item Need to provide a simple interface for clients
+        \item Layered systems requiring interaction with lower layers
+        \item Integrating with legacy or third-party code
+    \end{itemize}
+\end{frame}
+
+% Section 4: Structure
+
+% \begin{frame}{UML Class Diagram}
+%     \begin{center}
+%         \includegraphics[width=0.8\linewidth]{uml_facade.png} % Ensure you have this image in your directory
+%     \end{center}
+%     \footnotesize{Figure: UML Class Diagram of Facade Pattern}
+% \end{frame}
+
+% Section 5: Components
+
+\begin{frame}{Key Components}
+    \begin{enumerate}
+        \item \textbf{Facade:} Simplified interface for the client
+        \item \textbf{Subsystem Classes:} Complex classes handling specific functionalities
+        \item \textbf{Client:} Interacts only with the Facade
+    \end{enumerate}
+\end{frame}
+
+
+
+% Code Example Slide
+\begin{frame}[fragile]{C++ Code Example}
+    \begin{lstlisting}
+    // Facade Design Pattern in C++
+    #include <iostream>
+    using namespace std;
+    
+    class Light {
+    public:
+        void dim() { cout << "Lights dimmed.\n"; }
+    };
+    
+    class MusicSystem {
+    public:
+        void play() { cout << "Playing music.\n"; }
+    };
+    
+    class HomeTheaterFacade {
+        Light light;
+        MusicSystem music;
+    public:
+        void activateMovieMode() {
+            cout << "Activating Movie Mode...\n";
+            light.dim();
+            music.play();
+        }
+    };
+    
+    int main() {
+        HomeTheaterFacade theater;
+        theater.activateMovieMode();
+        return 0;
+    }
+    \end{lstlisting}
+    \end{frame}
+% Section 6: Benefits and Drawbacks
+
+\begin{frame}{Pros}
+    \begin{itemize}
+        \item Simplifies interactions with complex systems
+        \item Promotes loose coupling between client and subsystem
+        \item Enhances code readability and maintainability
+        \item Facilitates easier testing and debugging
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Cons}
+    \begin{itemize}
+        \item \textbf{Hides Too Much:} Can block access to advanced features.
+        \item \textbf{Overdependence:} Makes it harder to work without the Facade.
+        \item \textbf{Maintenance Overhead:} Needs regular updates to stay in sync.
+    \end{itemize}
+\end{frame}
+
+
+
+% Section 12: Real-World Applications
+
+\begin{frame}{Real-World Applications}
+    \begin{itemize}
+        \item \textbf{Home Theater Systems:} One button dims lights, starts the projector, and plays your movie.
+        \item \textbf{Computer Start-Up:} Turns chaos into a smooth boot-up process.
+        \item \textbf{Online Shopping:} Handles payments, inventory, and shipping in the background.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Summary}
+    \centering
+    The Facade Design Pattern simplifies complex systems by providing a clean and easy-to-use interface, making your code more readable, maintainable, and less dependent on the intricate details of subsystems.
+\end{frame}
+
+
+\end{document}

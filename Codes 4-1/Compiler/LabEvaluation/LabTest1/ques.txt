@@ -1,0 +1,5 @@
+Q2. Consider given statements, 
+1. Who IS <You>?  
+2. Who IS <HIM>?   
+3. What WAS <You>?  
+a) Show a flex file which can tokenize given statements. b) Show a bison file which can parse given statements.

@@ -1,0 +1,3 @@
+In line no 5, Inserting x with type INT_TYPE in symbol table.
+In line no 7, Inserting y with type INT_TYPE in symbol table.
+Parsing finished!

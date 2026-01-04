@@ -1,0 +1,1 @@
+{"name":"Local: A_Line_Trip","url":"d:\\Codes 2-2\\comp\\A_Line_Trip.cpp","tests":[{"id":1700838785918,"input":"3\n3 7\n1 2 5\n3 6\n1 2 5\n1 10\n7","output":"4\n3\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes 2-2\\comp\\A_Line_Trip.cpp","group":"local","local":true}

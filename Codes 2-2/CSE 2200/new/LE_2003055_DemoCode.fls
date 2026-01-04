@@ -1,0 +1,21 @@
+PWD d:\Codes 2-2\CSE 2200\new
+INPUT C:\Users\User\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\Codes 2-2\CSE 2200\new\LE_2003055_DemoCode.tex
+OUTPUT LE_2003055_DemoCode.log
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\LE_2003055_DemoCode.aux
+INPUT .\LE_2003055_DemoCode.aux
+INPUT LE_2003055_DemoCode.aux
+OUTPUT LE_2003055_DemoCode.aux
+OUTPUT LE_2003055_DemoCode.pdf
+INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT LE_2003055_DemoCode.aux
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb

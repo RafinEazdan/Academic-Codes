@@ -1,0 +1,15 @@
+main function () 
+
+suru
+
+       dhori x ar type integer
+
+       dhori y ar type integer
+
+       x soman 2
+
+       y soman 3 jog x
+
+       print kori y
+
+sesh

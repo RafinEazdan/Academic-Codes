@@ -1,0 +1,3036 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.21)  21 JAN 2024 23:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex"
+(e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/boxedminipage\boxedminipage.sty
+Package: boxedminipage 2020/04/19 v1.1 Boxed LaTeX2e minipages
+\bmp@box=\box51
+\bmp@width=\skip50
+\bmp@height=\skip51
+) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count195
+\l__pdf_internal_box=\box52
+) (LE_Q3b_2003055.aux)
+\openout1 = `LE_Q3b_2003055.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+Unit A.
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:13: Missing number, treated as zero.
+<to be read again> 
+                   e
+l.13     e
+          lit ut aliquam purus: Class aptent taciti sociosqu ad litora torqu...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:13: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   e
+l.13     e
+          lit ut aliquam purus: Class aptent taciti sociosqu ad litora torqu...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 13--21
+[]\OT1/cmr/m/n/10 lit
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ut
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ali-
+ []
+
+
+Overfull \hbox (24.16673pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 quam
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 pu-
+ []
+
+
+Overfull \hbox (16.19447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 rus:
+ []
+
+
+Overfull \hbox (22.88892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Class
+ []
+
+
+Overfull \hbox (28.05562pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 aptent
+ []
+
+
+Overfull \hbox (16.66669pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tac-
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 iti
+ []
+
+
+Overfull \hbox (12.27779pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 so-
+ []
+
+
+Overfull \hbox (27.00005pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ciosqu
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ad
+ []
+
+
+Overfull \hbox (23.36118pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 litora
+ []
+
+
+Overfull \hbox (40.02786pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 torquent.
+ []
+
+
+Overfull \hbox (31.86116pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Phasel-
+ []
+
+
+Overfull \hbox (12.2778pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lus
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 vo-
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lut-
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 pat
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 luc-
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tus
+ []
+
+
+Overfull \hbox (20.08336pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 eros,
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ut
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 im-
+ []
+
+
+Overfull \hbox (30.86118pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 perdiet
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 dui.
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Sed
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tel-
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lus,
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 dig-
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 nis-
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 sim
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 id
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 mol-
+ []
+
+
+Overfull \hbox (9.50002pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lis
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 at,
+ []
+
+
+Overfull \hbox (18.88892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 hen-
+ []
+
+
+Overfull \hbox (24.50005pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 drerit
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tae
+ []
+
+
+Overfull \hbox (26.66675pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ligula.
+ []
+
+
+Overfull \hbox (23.50003pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Prae-
+ []
+
+
+Overfull \hbox (17.55557pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 sent
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 pel-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (27.55559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (21.4445pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 justo
+ []
+
+
+Overfull \hbox (17.55559pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 quis
+ []
+
+
+Overfull \hbox (10.83334pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 fe-
+ []
+
+
+Overfull \hbox (9.50002pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lis
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ul-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lam-
+ []
+
+
+Overfull \hbox (16.69446pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 cor-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (14.75002pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 fer-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 men-
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tum.
+ []
+
+
+Overfull \hbox (15.27779pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Ae-
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 nean
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 eget
+ []
+
+
+Overfull \hbox (14.75002pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 fer-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 men-
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tum
+ []
+
+
+Overfull \hbox (28.41673pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 turpis,
+ []
+
+
+Overfull \hbox (17.22226pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 pul-
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 v-
+ []
+
+
+Overfull \hbox (17.25005pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 inar
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ul-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lam-
+ []
+
+
+Overfull \hbox (16.69446pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 cor-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 sem.
+ []
+
+
+Overfull \hbox (19.9167pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Duis
+ []
+
+
+Overfull \hbox (25.86118pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lobor-
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tis
+ []
+
+
+Overfull \hbox (9.72224pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 ex
+ []
+
+
+Overfull \hbox (26.94452pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 quam,
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (15.05557pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 sol-
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 lic-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tudin
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 me-
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 tus
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 fa-
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 cil-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (10.66667pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 sis
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 amet.
+ []
+
+
+Overfull \hbox (20.83339pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 Nam
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 at
+ []
+
+
+Overfull \hbox (23.36116pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 rhon-
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 cus
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/n/10 leo. 
+ []
+
+
+Overfull \hbox (20.5832pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/it/10 Roll:
+ []
+
+
+Overfull \hbox (37.13315pt too wide) in paragraph at lines 13--21
+\OT1/cmr/m/it/10 2003055 
+ []
+
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 22--23
+[]
+ []
+
+
+Overfull \hbox (63.9723pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 Tristique
+ []
+
+
+Overfull \hbox (51.1667pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 senec-
+ []
+
+
+Overfull \hbox (38.38895pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 tus
+ []
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (38.33337pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 ne-
+ []
+
+
+Overfull \hbox (41.16673pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 tus:
+ []
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (48.88896pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 male-
+ []
+
+
+Overfull \hbox (50.05565pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 suada
+ []
+
+
+Overfull \hbox (49.77786pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 fames
+ []
+
+
+Overfull \hbox (34.44449pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 ac
+ []
+
+
+Overfull \hbox (50.63898pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 turpis
+ []
+
+
+Overfull \hbox (46.1667pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 eges-
+ []
+
+
+Overfull \hbox (40.61118pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 tas. 
+ []
+
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 24--25
+[]
+ []
+
+
+Overfull \hbox (77.13896pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 Cursus
+ []
+
+
+Overfull \hbox (67.55563pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 mat-
+ []
+
+
+Overfull \hbox (57.61116pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 tis
+ []
+
+
+Overfull \hbox (63.66673pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 mo-
+ []
+
+
+Overfull \hbox (69.27783pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 lestie
+ []
+
+
+Overfull \hbox (52.00005pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (58.11116pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 ia-
+ []
+
+
+Overfull \hbox (54.7778pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 c-
+ []
+
+
+Overfull \hbox (62.05562pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 ulis
+ []
+
+
+Overfull \hbox (55.88895pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 at
+ []
+
+
+Overfull \hbox (64.25006pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 erat
+ []
+
+
+Overfull \hbox (63.38895pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 pel-
+ []
+
+
+Overfull \hbox (63.11116pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (74.55562pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (69.2223pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 adip-
+ []
+
+
+Overfull \hbox (61.50003pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 isc-
+ []
+
+
+Overfull \hbox (60.3334pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (68.11118pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (73.94456pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 modo. 
+ []
+
+
+Overfull \hbox (66.53465pt too wide) in paragraph at lines 26--27
+[]
+ []
+
+
+Overfull \hbox (77.64445pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 Ac
+ []
+
+
+Overfull \hbox (84.03336pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 auc-
+ []
+
+
+Overfull \hbox (78.50558pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 tor
+ []
+
+
+Overfull \hbox (79.58891pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (80.70003pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (87.92227pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 mau-
+ []
+
+
+Overfull \hbox (76.3389pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 ris
+ []
+
+
+Overfull \hbox (79.58891pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (80.70003pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (90.97781pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 neque
+ []
+
+
+Overfull \hbox (100.72787pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 gravida.
+ []
+
+
+Overfull \hbox (84.8667pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 Nul-
+ []
+
+
+Overfull \hbox (81.81116pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 lam
+ []
+
+
+Overfull \hbox (78.47778pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 ve-
+ []
+
+
+Overfull \hbox (81.81113pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 hic-
+ []
+
+
+Overfull \hbox (79.03337pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 ula
+ []
+
+
+Overfull \hbox (77.36668pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 ip-
+ []
+
+
+Overfull \hbox (83.53337pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 sum
+ []
+
+
+Overfull \hbox (70.70001pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (84.6167pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 arcu
+ []
+
+
+Overfull \hbox (82.95001pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 cur-
+ []
+
+
+Overfull \hbox (81.92224pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 sus. 
+ []
+
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 30--31
+[]
+ []
+
+
+Overfull \hbox (68.05568pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 Tincidunt
+ []
+
+
+Overfull \hbox (45.8334pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 nunc
+ []
+
+
+Overfull \hbox (42.22229pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 pul-
+ []
+
+
+Overfull \hbox (33.61116pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 v-
+ []
+
+
+Overfull \hbox (42.25008pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 inar
+ []
+
+
+Overfull \hbox (52.27786pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 sapien
+ []
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (48.88899pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 ligula
+ []
+
+
+Overfull \hbox (36.66672pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 ul-
+ []
+
+
+Overfull \hbox (44.44452pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 lam-
+ []
+
+
+Overfull \hbox (41.69449pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 cor-
+ []
+
+
+Overfull \hbox (39.1945pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (48.88896pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 male-
+ []
+
+
+Overfull \hbox (50.05565pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 suada
+ []
+
+
+Overfull \hbox (47.80565pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 proin
+ []
+
+
+Overfull \hbox (52.52788pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/10 libero. 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 34.
+
+Overfull \hbox (48.23404pt too wide) in paragraph at lines 34--34
+[][]\OT1/cmr/m/n/8 Footnote
+ []
+
+
+Overfull \hbox (4.25006pt too wide) in paragraph at lines 34--34
+\OT1/cmr/m/n/8 1| 
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 34--40
+[]\OT1/cmr/m/n/10 Sed
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 diam
+ []
+
+
+Overfull \hbox (26.38898pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 velit,[]
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tin-
+ []
+
+
+Overfull \hbox (27.50006pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 cidunt
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 vel
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.58334pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ter-
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 dum
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 eu,
+ []
+
+
+Overfull \hbox (12.77779pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ve-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 hic-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ula
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sed
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 leo.
+ []
+
+
+Overfull \hbox (23.50003pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Prae-
+ []
+
+
+Overfull \hbox (17.55557pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sent
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (21.66672pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 amet
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 feu-
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 giat
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 me-
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tus.
+ []
+
+
+Overfull \hbox (20.83339pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Nam
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 pel-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (27.55559pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (23.36116pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 rhon-
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 cus
+ []
+
+
+Overfull \hbox (20.02783pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 urna
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 non
+ []
+
+
+Overfull \hbox (21.97227pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 port-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (15.58337pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tor.
+ []
+
+
+Overfull \hbox (27.9445pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Lorem
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ip-
+ []
+
+
+Overfull \hbox (17.83337pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sum
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 do-
+ []
+
+
+Overfull \hbox (11.69447pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 lor
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 amet,
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (24.5pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 secte-
+ []
+
+
+Overfull \hbox (13.36115pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tur
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 adip-
+ []
+
+
+Overfull \hbox (14.5pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 isc-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 elit.
+ []
+
+
+Overfull \hbox (21.94447pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Mae-
+ []
+
+
+Overfull \hbox (12.22221pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ce-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 nas
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 blan-
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 dit
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 nisi
+ []
+
+
+Overfull \hbox (17.25002pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 cur-
+ []
+
+
+Overfull \hbox (13.44446pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sus
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 se-
+ []
+
+
+Overfull \hbox (19.72227pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 quat
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sed
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tae
+ []
+
+
+Overfull \hbox (27.52785pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 libero.
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Nunc
+ []
+
+
+Overfull \hbox (25.86118pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 lobor-
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tis
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (21.38895pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 nulla
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sed
+ []
+
+
+Overfull \hbox (35.02788pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 gravida.
+ []
+
+
+Overfull \hbox (24.08336pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Fusce
+ []
+
+
+Overfull \hbox (33.63899pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 fringilla
+ []
+
+
+Overfull \hbox (28.88898pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 magna
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (18.61118pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 odio
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 plac-
+ []
+
+
+Overfull \hbox (17.25003pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 erat
+ []
+
+
+Overfull \hbox (16.97226pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 var-
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 ius.
+ []
+
+
+Overfull \hbox (17.08334pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 Pel-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (27.55559pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tae
+ []
+
+
+Overfull \hbox (20.05557pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sem-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 elit,
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 tin-
+ []
+
+
+Overfull \hbox (27.50006pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 cidunt
+ []
+
+
+Overfull \hbox (30.05562pt too wide) in paragraph at lines 34--40
+\OT1/cmr/m/n/10 sapien. 
+ []
+
+
+Overfull \hbox (27.9445pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 Lorem
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 ip-
+ []
+
+
+Overfull \hbox (17.83337pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 sum
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 do-
+ []
+
+
+Overfull \hbox (11.69447pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 lor
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 amet,
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (24.5pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 secte-
+ []
+
+
+Overfull \hbox (13.36115pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 tur
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 adip-
+ []
+
+
+Overfull \hbox (14.5pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 isc-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/m/n/10 elit.
+ []
+
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:43: Missing number, treated as zero.
+<to be read again> 
+                   e
+l.43 \end{minipage}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:43: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   e
+l.43 \end{minipage}
+                   
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \vbox (3126.6472pt too high) has occurred while \output is active []
+
+ [2]
+Unit B.
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:48: Missing number, treated as zero.
+<to be read again> 
+                   e
+l.48     e
+          lit ut aliquam purus: Class aptent taciti sociosqu ad litora torqu...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:48: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   e
+l.48     e
+          lit ut aliquam purus: Class aptent taciti sociosqu ad litora torqu...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 48--56
+[]\OT1/cmr/m/n/10 lit
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ut
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ali-
+ []
+
+
+Overfull \hbox (24.16673pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 quam
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 pu-
+ []
+
+
+Overfull \hbox (16.19447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 rus:
+ []
+
+
+Overfull \hbox (22.88892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Class
+ []
+
+
+Overfull \hbox (28.05562pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 aptent
+ []
+
+
+Overfull \hbox (16.66669pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tac-
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 iti
+ []
+
+
+Overfull \hbox (12.27779pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 so-
+ []
+
+
+Overfull \hbox (27.00005pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ciosqu
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ad
+ []
+
+
+Overfull \hbox (23.36118pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 litora
+ []
+
+
+Overfull \hbox (40.02786pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 torquent.
+ []
+
+
+Overfull \hbox (31.86116pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Phasel-
+ []
+
+
+Overfull \hbox (12.2778pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lus
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 vo-
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lut-
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 pat
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 luc-
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tus
+ []
+
+
+Overfull \hbox (20.08336pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 eros,
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ut
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 im-
+ []
+
+
+Overfull \hbox (30.86118pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 perdiet
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 dui.
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Sed
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tel-
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lus,
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 dig-
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 nis-
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 sim
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 id
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 mol-
+ []
+
+
+Overfull \hbox (9.50002pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lis
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 at,
+ []
+
+
+Overfull \hbox (18.88892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 hen-
+ []
+
+
+Overfull \hbox (24.50005pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 drerit
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tae
+ []
+
+
+Overfull \hbox (26.66675pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ligula.
+ []
+
+
+Overfull \hbox (23.50003pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Prae-
+ []
+
+
+Overfull \hbox (17.55557pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 sent
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 pel-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (27.55559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (21.4445pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 justo
+ []
+
+
+Overfull \hbox (17.55559pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 quis
+ []
+
+
+Overfull \hbox (10.83334pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 fe-
+ []
+
+
+Overfull \hbox (9.50002pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lis
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ul-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lam-
+ []
+
+
+Overfull \hbox (16.69446pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 cor-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (14.75002pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 fer-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 men-
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tum.
+ []
+
+
+Overfull \hbox (15.27779pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Ae-
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 nean
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 eget
+ []
+
+
+Overfull \hbox (14.75002pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 fer-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 men-
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tum
+ []
+
+
+Overfull \hbox (28.41673pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 turpis,
+ []
+
+
+Overfull \hbox (17.22226pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 pul-
+ []
+
+
+Overfull \hbox (8.61113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 v-
+ []
+
+
+Overfull \hbox (17.25005pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 inar
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ul-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lam-
+ []
+
+
+Overfull \hbox (16.69446pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 cor-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 sem.
+ []
+
+
+Overfull \hbox (19.9167pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Duis
+ []
+
+
+Overfull \hbox (25.86118pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lobor-
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tis
+ []
+
+
+Overfull \hbox (9.72224pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 ex
+ []
+
+
+Overfull \hbox (26.94452pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 quam,
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (15.05557pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 sol-
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 lic-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (23.3334pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tudin
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 me-
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 tus
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 fa-
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 cil-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (10.66667pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 sis
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 amet.
+ []
+
+
+Overfull \hbox (20.83339pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 Nam
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 at
+ []
+
+
+Overfull \hbox (23.36116pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 rhon-
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 cus
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/n/10 leo. 
+ []
+
+
+Overfull \hbox (20.5832pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/it/10 Roll:
+ []
+
+
+Overfull \hbox (37.13315pt too wide) in paragraph at lines 48--56
+\OT1/cmr/m/it/10 2003055 
+ []
+
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 57--58
+[]
+ []
+
+
+Overfull \hbox (63.9723pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 Tristique
+ []
+
+
+Overfull \hbox (51.1667pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 senec-
+ []
+
+
+Overfull \hbox (38.38895pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 tus
+ []
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (38.33337pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 ne-
+ []
+
+
+Overfull \hbox (41.16673pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 tus:
+ []
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (48.88896pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 male-
+ []
+
+
+Overfull \hbox (50.05565pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 suada
+ []
+
+
+Overfull \hbox (49.77786pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 fames
+ []
+
+
+Overfull \hbox (34.44449pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 ac
+ []
+
+
+Overfull \hbox (50.63898pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 turpis
+ []
+
+
+Overfull \hbox (46.1667pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 eges-
+ []
+
+
+Overfull \hbox (40.61118pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 tas. 
+ []
+
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 59--60
+[]
+ []
+
+
+Overfull \hbox (77.13896pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 Cursus
+ []
+
+
+Overfull \hbox (67.55563pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 mat-
+ []
+
+
+Overfull \hbox (57.61116pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 tis
+ []
+
+
+Overfull \hbox (63.66673pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 mo-
+ []
+
+
+Overfull \hbox (69.27783pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 lestie
+ []
+
+
+Overfull \hbox (52.00005pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (58.11116pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 ia-
+ []
+
+
+Overfull \hbox (54.7778pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 c-
+ []
+
+
+Overfull \hbox (62.05562pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 ulis
+ []
+
+
+Overfull \hbox (55.88895pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 at
+ []
+
+
+Overfull \hbox (64.25006pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 erat
+ []
+
+
+Overfull \hbox (63.38895pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 pel-
+ []
+
+
+Overfull \hbox (63.11116pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (74.55562pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (69.2223pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 adip-
+ []
+
+
+Overfull \hbox (61.50003pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 isc-
+ []
+
+
+Overfull \hbox (60.3334pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (68.11118pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (73.94456pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 modo. 
+ []
+
+
+Overfull \hbox (66.53465pt too wide) in paragraph at lines 61--62
+[]
+ []
+
+
+Overfull \hbox (77.64445pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 Ac
+ []
+
+
+Overfull \hbox (84.03336pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 auc-
+ []
+
+
+Overfull \hbox (78.50558pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 tor
+ []
+
+
+Overfull \hbox (79.58891pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (80.70003pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (87.92227pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 mau-
+ []
+
+
+Overfull \hbox (76.3389pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 ris
+ []
+
+
+Overfull \hbox (79.58891pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (80.70003pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (90.97781pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 neque
+ []
+
+
+Overfull \hbox (100.72787pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 gravida.
+ []
+
+
+Overfull \hbox (84.8667pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 Nul-
+ []
+
+
+Overfull \hbox (81.81116pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 lam
+ []
+
+
+Overfull \hbox (78.47778pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 ve-
+ []
+
+
+Overfull \hbox (81.81113pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 hic-
+ []
+
+
+Overfull \hbox (79.03337pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 ula
+ []
+
+
+Overfull \hbox (77.36668pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 ip-
+ []
+
+
+Overfull \hbox (83.53337pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 sum
+ []
+
+
+Overfull \hbox (70.70001pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (84.6167pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 arcu
+ []
+
+
+Overfull \hbox (82.95001pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 cur-
+ []
+
+
+Overfull \hbox (81.92224pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 sus. 
+ []
+
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 65--66
+[]
+ []
+
+
+Overfull \hbox (68.05568pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 Tincidunt
+ []
+
+
+Overfull \hbox (45.8334pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 nunc
+ []
+
+
+Overfull \hbox (42.22229pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 pul-
+ []
+
+
+Overfull \hbox (33.61116pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 v-
+ []
+
+
+Overfull \hbox (42.25008pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 inar
+ []
+
+
+Overfull \hbox (52.27786pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 sapien
+ []
+
+
+Overfull \hbox (33.33337pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (48.88899pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 ligula
+ []
+
+
+Overfull \hbox (36.66672pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 ul-
+ []
+
+
+Overfull \hbox (44.44452pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 lam-
+ []
+
+
+Overfull \hbox (41.69449pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 cor-
+ []
+
+
+Overfull \hbox (39.1945pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (48.88896pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 male-
+ []
+
+
+Overfull \hbox (50.05565pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 suada
+ []
+
+
+Overfull \hbox (47.80565pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 proin
+ []
+
+
+Overfull \hbox (52.52788pt too wide) in paragraph at lines 65--66
+\OT1/cmr/m/n/10 libero. 
+ []
+
+
+Overfull \hbox (48.23404pt too wide) in paragraph at lines 69--69
+[][]\OT1/cmr/m/n/8 Footnote
+ []
+
+
+Overfull \hbox (4.25006pt too wide) in paragraph at lines 69--69
+\OT1/cmr/m/n/8 1| 
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 69--75
+[]\OT1/cmr/m/n/10 Sed
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 diam
+ []
+
+
+Overfull \hbox (26.38898pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 velit,[]
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tin-
+ []
+
+
+Overfull \hbox (27.50006pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 cidunt
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 vel
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.58334pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ter-
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 dum
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 eu,
+ []
+
+
+Overfull \hbox (12.77779pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ve-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 hic-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ula
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sed
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 leo.
+ []
+
+
+Overfull \hbox (23.50003pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Prae-
+ []
+
+
+Overfull \hbox (17.55557pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sent
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (21.66672pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 amet
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 feu-
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 giat
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 me-
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tus.
+ []
+
+
+Overfull \hbox (20.83339pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Nam
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 pel-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (27.55559pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (23.36116pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 rhon-
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 cus
+ []
+
+
+Overfull \hbox (20.02783pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 urna
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 non
+ []
+
+
+Overfull \hbox (21.97227pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 port-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (15.58337pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tor.
+ []
+
+
+Overfull \hbox (27.9445pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Lorem
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ip-
+ []
+
+
+Overfull \hbox (17.83337pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sum
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 do-
+ []
+
+
+Overfull \hbox (11.69447pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 lor
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 amet,
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (24.5pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 secte-
+ []
+
+
+Overfull \hbox (13.36115pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tur
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 adip-
+ []
+
+
+Overfull \hbox (14.5pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 isc-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 elit.
+ []
+
+
+Overfull \hbox (21.94447pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Mae-
+ []
+
+
+Overfull \hbox (12.22221pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ce-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 nas
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 blan-
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 dit
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 au-
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 gue
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 nisi
+ []
+
+
+Overfull \hbox (17.25002pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 cur-
+ []
+
+
+Overfull \hbox (13.44446pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sus
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 se-
+ []
+
+
+Overfull \hbox (19.72227pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 quat
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sed
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tae
+ []
+
+
+Overfull \hbox (27.52785pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 libero.
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Nunc
+ []
+
+
+Overfull \hbox (25.86118pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 lobor-
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tis
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 et
+ []
+
+
+Overfull \hbox (21.38895pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 nulla
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sed
+ []
+
+
+Overfull \hbox (35.02788pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 gravida.
+ []
+
+
+Overfull \hbox (24.08336pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Fusce
+ []
+
+
+Overfull \hbox (33.63899pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 fringilla
+ []
+
+
+Overfull \hbox (28.88898pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 magna
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (18.61118pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 odio
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 plac-
+ []
+
+
+Overfull \hbox (17.25003pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 erat
+ []
+
+
+Overfull \hbox (16.97226pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 var-
+ []
+
+
+Overfull \hbox (15.05559pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 ius.
+ []
+
+
+Overfull \hbox (17.08334pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 Pel-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 len-
+ []
+
+
+Overfull \hbox (27.55559pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tesque
+ []
+
+
+Overfull \hbox (11.38892pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 vi-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tae
+ []
+
+
+Overfull \hbox (20.05557pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sem-
+ []
+
+
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 per
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 elit,
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 tin-
+ []
+
+
+Overfull \hbox (27.50006pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 cidunt
+ []
+
+
+Overfull \hbox (30.05562pt too wide) in paragraph at lines 69--75
+\OT1/cmr/m/n/10 sapien. 
+ []
+
+
+Overfull \hbox (27.9445pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 Lorem
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 ip-
+ []
+
+
+Overfull \hbox (17.83337pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 sum
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 do-
+ []
+
+
+Overfull \hbox (11.69447pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 lor
+ []
+
+
+Overfull \hbox (10.61113pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 sit
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 amet,
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (24.5pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 secte-
+ []
+
+
+Overfull \hbox (13.36115pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 tur
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 adip-
+ []
+
+
+Overfull \hbox (14.5pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 isc-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 76--77
+ \OT1/cmr/m/n/10 elit.
+ []
+
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:78: Missing number, treated as zero.
+<to be read again> 
+                   e
+l.78 \end{minipage}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+e:/.D/Codes 2-2/CSE 2200/test2/LE_Q3b_2003055.tex:78: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   e
+l.78 \end{minipage}
+                   
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
+
+]
+Overfull \vbox (3126.6472pt too high) has occurred while \output is active []
+
+ [4] (LE_Q3b_2003055.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 528 strings out of 474587
+ 10291 string characters out of 5746165
+ 1938558 words of memory out of 5000000
+ 22774 multiletter control sequences out of 15000+600000
+ 563450 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,10n,50p,190b,351s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on LE_Q3b_2003055.pdf (4 pages, 85460 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

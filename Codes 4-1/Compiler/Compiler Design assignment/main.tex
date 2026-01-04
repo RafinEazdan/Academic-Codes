@@ -1,0 +1,570 @@
+\documentclass[11pt, letterpaper]{article}
+
+% --- PACKAGES ---
+\usepackage[margin=1in]{geometry}
+\usepackage[table]{xcolor} % Load xcolor with 'table' option for \rowcolors
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{amsmath}         % For align* environment
+\usepackage{tikz}
+\usepackage{tikz-qtree}      % <<< ADDED: Required for the \Tree command
+\usepackage[T1]{fontenc}
+\usepackage{palatino}        % Font choice
+\usepackage{booktabs}        % For \toprule, \midrule, \bottomrule
+\usepackage{array}
+\usepackage{forest}
+\usepackage{float}
+% --- COLOR DEFINITIONS ---
+\definecolor{listingsbg}{rgb}{0.95, 0.95, 0.95}
+\definecolor{commentgray}{rgb}{0.4, 0.4, 0.4}
+\definecolor{keywordblue}{rgb}{0.0, 0.0, 0.6}
+\definecolor{opcodepurple}{rgb}{0.5, 0.0, 0.5}
+\definecolor{registergreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{tableheadbg}{rgb}{0.8, 0.8, 0.85}
+\definecolor{tablerowbg}{rgb}{0.9, 0.9, 0.95}
+
+% --- LISTING STYLE DEFINITIONS ---
+
+% <<< FIXED: Replaced broken C-style with a new, correct style for TAC
+\lstdefinestyle{TACStyle}{
+    backgroundcolor=\color{listingsbg},
+    basicstyle=\ttfamily\small,
+    morekeywords={GOTO_IF_FALSE, GOTO, CALL}, % Keywords for TAC
+    keywordstyle=\color{keywordblue}\bfseries,
+    comment=[l]{\#}, % Use \# for comments (must be escaped)
+    commentstyle=\color{commentgray}\textit,
+    frame=single,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny\color{commentgray}
+}
+
+% Custom style for Pseudo-Assembly (Q4)
+% This style defines a MIPS-like assembly language for a load/store architecture.
+\lstdefinestyle{Assembly}{
+    language={[x86masm]Assembler}, % Use assembler as a base
+    backgroundcolor=\color{listingsbg},
+    basicstyle=\ttfamily\small,
+    morekeywords={LI, LOAD, STORE, LOAD_FLOAT, STORE_FLOAT, LOAD_ADDR, ADD, ADDI, SUB, SUBI, MUL, DIV, ADD_FLOAT, MUL_FLOAT, CVT_I_F, J, JAL, JR, BEQ, BNE, SGT, SLT, AND, SYSCALL}, % Instructions
+    keywordstyle=\color{keywordblue}\bfseries,
+    emph={$s0, $s1, $t0, $t1, $t2, $t7, $t10, $t11, $a0, $v0, $ra, $f0, $f1, $f2, $zero}, % Registers
+    emphstyle=\color{registergreen},
+    comment=[l]{\#}, % <<< FIXED: Escaped the #
+    commentstyle=\color{commentgray}\textit,
+    moredirectives={.data,.text,.globl,.word,.float,.string,.align}, % <<< FIXED: Typo 'moredirectivcs'
+    directivestyle=\color{opcodepurple},
+    frame=single,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny\color{commentgray}
+}
+
+% --- DOCUMENT METADATA ---
+\title{CSE 4101: Compiler Design Assignment\\Sci-PL: A Mini Compiler for Scientific Computation}
+\author{Assignment Submission}
+\date{\today}
+
+% --- DOCUMENT BODY ---
+\begin{document}
+\maketitle
+
+\section{Question 1: Lexical Analysis}
+This section presents the lexical analysis for the provided Sci-PL source code. The following table enumerates all lexemes identified in the source program, their corresponding token types, and the regular expression patterns that define them, as required by the prompt. The table uses alternating row colors for readability.
+
+\rowcolors{2}{tablerowbg}{white} % Set alternating row colors
+\begin{longtable}{lll}
+% Table Header
+\rowcolor{tableheadbg} % Color the header row
+\toprule
+\textbf{Pattern (Regular Expression)} & \textbf{Token Type} & \textbf{Lexeme} \\ % <<< FIXED: Changed \ to \\
+\midrule
+\endfirsthead
+% Header for subsequent pages
+\rowcolor{tableheadbg}
+\toprule
+\textbf{Pattern (Regular Expression)} & \textbf{Token Type} & \textbf{Lexeme} \\
+\midrule
+\endhead
+% Footer
+\bottomrule
+\endlastfoot
+
+% --- Token Stream from Source ---
+% <<< FIXED: Added \\ to every line and used \texttt{} for lexemes/patterns.
+% <<< FIXED: Escaped special characters in patterns (_ * + ^)
+
+
+
+
+
+
+
+
+% \rowcolors{2}{tablerowbg}{white} % Set alternating row colors
+% \begin{longtable}{lll}
+% % Table Header
+% \rowcolor{tableheadbg} % Color the header row
+% \toprule
+% \textbf{Pattern (Regular Expression)} & \textbf{Token Type} & \textbf{Lexemes (Unique)} \\
+% \midrule
+% \endfirsthead
+% % Header for subsequent pages
+% \rowcolor{tableheadbg}
+% \toprule
+% \textbf{Pattern (Regular Expression)} & \textbf{Token Type} & \textbf{Lexemes (Unique)} \\
+% \midrule
+% \endhead
+% % Footer
+% \bottomrule
+% \endlastfoot
+
+% \rowcolors{2}{tablerowbg}{white} % Set alternating row colors
+% \begin{longtable}{lll}
+% % Table Header
+% \rowcolor{tableheadbg} % Color the header row
+% \toprule
+% \textbf{Pattern (Regular Expression)} & \textbf{Token Type} & \textbf{Lexemes (Unique)} \\
+% \midrule
+% \endfirsthead
+% % Header for subsequent pages
+% \rowcolor{tableheadbg}
+% \toprule
+% \textbf{Pattern (Regular Expression)} & \textbf{Token Type} & \textbf{Lexemes (Unique)} \\
+% \midrule
+% \endhead
+% % Footer
+% \bottomrule
+% \endlastfoot
+
+% --- Token Summary by Type (Highly Granular) ---
+% --- Identifier Class ---
+\texttt{main} & \texttt{KW\_MAIN} & \texttt{main} \\
+\texttt{def} & \texttt{KW\_DEF} & \texttt{def} \\
+\texttt{if} & \texttt{KW\_IF} & \texttt{if} \\
+\texttt{else} & \texttt{KW\_ELSE} & \texttt{else} \\
+\texttt{while} & \texttt{KW\_WHILE} & \texttt{while} \\
+\texttt{check\_balance} & \texttt{KW\_FUNC\_CHECK} & \texttt{check\_balance} \\
+\texttt{int} & \texttt{TYPE\_INT} & \texttt{int} \\
+\texttt{float} & \texttt{TYPE\_FLOAT} & \texttt{float} \\
+\texttt{bool} & \texttt{TYPE\_BOOL} & \texttt{bool} \\
+\texttt{reaction} & \texttt{TYPE\_REACTION} & \texttt{reaction} \\
+% --- Identifier Class (General Pattern) ---
+\texttt{[a-zA-Z\_][a-zA-Z0-9\_]\*} & \texttt{IDENTIFIER} & \texttt{x, y, isBalanced, r1, r2} \\
+% --- Literal Classes (General Pattern) ---
+\texttt{[0-9]\+} & \texttt{LITERAL\_INT} & \texttt{10, 1, 5, 2} \\
+\texttt{[0-9]\+\.[0-9]\+} & \texttt{LITERAL\_FLOAT} & \texttt{5.5, 1.0} \\
+\texttt{"[\^{}"]\*"} & \texttt{LITERAL\_STRING} & \texttt{"2\*H2+O2->2\*H2O", "H2+O2->H2O"} \\
+% --- Operator Tokens (Exact Match) ---
+\texttt{=} & \texttt{OP\_ASSIGN} & \texttt{=} \\
+\texttt{\+} & \texttt{OP\_PLUS} & \texttt{+} \\
+\texttt{-} & \texttt{OP\_MINUS} & \texttt{-} \\
+\texttt{\*}} & \texttt{OP\_MULTIPLY} & \texttt{\*} \\
+\texttt{>} & \texttt{OP\_GT} & \texttt{>} \\
+\texttt{<} & \texttt{OP\_LT} & \texttt{<} \\
+\texttt{\&\&} & \texttt{OP\_LOGIC\_AND} & \texttt{\&\&} \\
+% --- Delimiter Tokens (Exact Match) ---
+\texttt{\{} & \texttt{DELIM\_LBRACE} & \texttt{\{} \\
+\texttt{\}} & \texttt{DELIM\_RBRACE} & \texttt{\}} \\
+\texttt{(} & \texttt{DELIM\_LPAREN} & \texttt{(} \\
+\texttt{)} & \texttt{DELIM\_RPAREN} & \texttt{)} \\
+\texttt{;} & \texttt{DELIM\_SEMICOLON} & \texttt{;} \\
+\texttt{,} & \texttt{DELIM\_COMMA} & \texttt{,} \\
+
+
+
+
+
+\end{longtable}
+
+\section{Question 2: Syntax Analysis}
+This section addresses the syntax analysis phase. We provide the Context-Free Grammar (CFG) and the Abstract Syntax Tree (AST) as requested.
+\subsection{2.1 Context-Free Grammar (CFG)}
+A simplified Context-Free Grammar (CFG) for the Sci-PL language is presented below.
+
+% <<< FIXED: Corrected all grammar rules.
+% <<< Removed stray commas, changed \ to \\, fixed special characters.
+\section*{Context-Free Grammar (CFG) for Sci-PL}
+
+\begin{align*}
+% 1. Program Structure
+\textit{Program} &\to \texttt{KW\_MAIN} \texttt{ DELIM\_LBRACE } \textit{StmtList} \texttt{ DELIM\_RBRACE} \\
+\textit{StmtList} &\to \textit{Stmt} \textit{ StmtList} \mid \varepsilon \\
+\\
+% 2. Statements
+\textit{Stmt} &\to \textit{DeclStmt} \\
+&\mid \textit{AssignStmt} \\
+&\mid \textit{IfStmt} \\
+&\mid \textit{WhileStmt} \\
+\\
+% 3. Statement Definitions
+\textit{DeclStmt} &\to \texttt{KW\_DEF} \textit{ Type} \textit{ IdList} \texttt{ DELIM\_SEMICOLON} \\
+\textit{Type} &\to \texttt{TYPE\_INT} \mid \texttt{TYPE\_FLOAT} \mid \texttt{TYPE\_BOOL} \mid \texttt{TYPE\_REACTION} \\
+\textit{IdList} &\to \texttt{IDENTIFIER} \texttt{ DELIM\_COMMA } \textit{IdList} \mid \texttt{IDENTIFIER} \\
+\\
+\textit{AssignStmt} &\to \texttt{IDENTIFIER} \texttt{ OP\_ASSIGN } \textit{Expr} \texttt{ DELIM\_SEMICOLON} \\
+\\
+\textit{IfStmt} &\to \texttt{KW\_IF} \texttt{ (} \textit{Expr} \texttt{)} \texttt{ \{ } \textit{StmtList} \texttt{ \} } \texttt{ KW\_ELSE } \texttt{ \{ } \textit{StmtList} \texttt{ \} } \\
+&\mid \texttt{KW\_IF} \texttt{ (} \textit{Expr} \texttt{)} \texttt{ \{ } \textit{StmtList} \texttt{ \} } \\
+\\
+\textit{WhileStmt} &\to \texttt{KW\_WHILE} \texttt{ (} \textit{Expr} \texttt{)} \texttt{ \{ } \textit{StmtList} \texttt{ \} } \\
+\\
+% 4. Expressions (with precedence)
+\textit{Expr} &\to \textit{LogicExpr} \\
+\textit{LogicExpr} &\to \textit{LogicExpr} \texttt{ OP\_LOGIC\_AND } \textit{RelExpr} \mid \textit{RelExpr} \\
+\textit{RelExpr} &\to \textit{ArithExpr} \texttt{ OP\_GT } \textit{ArithExpr} \\
+&\mid \textit{ArithExpr} \texttt{ OP\_LT } \textit{ArithExpr} \\
+&\mid \textit{ArithExpr} \\
+\textit{ArithExpr} &\to \textit{ArithExpr} \texttt{ OP\_PLUS } \textit{Term} \mid \textit{ArithExpr} \texttt{ OP\_MINUS } \textit{Term} \mid \textit{Term} \\
+\textit{Term} &\to \textit{Term} \texttt{ OP\_MULTIPLY } \textit{Factor} \mid \textit{Factor} \\
+\textit{Factor} &\to \textit{Primary} \\
+\textit{Primary} &\to \texttt{IDENTIFIER} \mid \texttt{LITERAL\_INT} \mid \texttt{LITERAL\_FLOAT} \\
+&\mid \texttt{LITERAL\_STRING} \mid \textit{CallExpr} \mid \texttt{DELIM\_LPAREN} \textit{ Expr} \texttt{ DELIM\_RPAREN} \\
+\\
+\textit{CallExpr} &\to \texttt{KW\_FUNC\_CHECK} \texttt{ (} \textit{Expr} \texttt{)}
+\end{align*}
+\subsection*{1. Parse Tree (CST)}
+
+\begin{figure}[H]
+\centering
+% This uses the 'forest' package, which is excellent at auto-packing
+% wide trees.
+\begin{forest}
+  % Define styles
+  for tree={
+    draw, % Draw lines for all edges
+    -latex, % Add arrowheads
+    anchor=north, % Anchor nodes at the top center
+    font=\ttfamily\small,
+    l sep=10pt, % Vertical separation
+    s sep=5pt,  % Horizontal separation
+    fit=band    % Pack the tree tightly
+  },
+  % Style for Non-Terminals (your grammar rules)
+  cst node/.style={font=\ttfamily\small\itshape, align=center},
+  % Style for Terminals (the actual lexemes)
+  term node/.style={font=\ttfamily\small, fill=gray!10, align=center}
+  
+  [AssignStmt, cst node
+    [IDENTIFIER, cst node
+      [isBalanced, term node]
+    ]
+    [OP\_ASSIGN, cst node
+      [{=}, term node]
+    ]
+    [Expr, cst node
+      [LogicExpr, cst node
+        [RelExpr, cst node
+          [ArithExpr, cst node
+            [Term, cst node
+              [Factor, cst node
+                [Primary, cst node
+                  [CallExpr, cst node
+                    [KW\_FUNC\_CHECK, cst node
+                      [check\_balance, term node]
+                    ]
+                    [DELIM\_LPAREN, cst node
+                      [(, term node]
+                    ]
+                    [Expr, cst node
+                      [LogicExpr, cst node
+                        [RelExpr, cst node
+                          [ArithExpr, cst node
+                            [Term, cst node
+                              [Factor, cst node
+                                [Primary, cst node
+                                  [IDENTIFIER, cst node
+                                    [r1, term node]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                    [DELIM\_RPAREN, cst node
+                      [), term node]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+    [DELIM\_SEMICOLON, cst node
+      [;, term node]
+    ]
+  ]
+\end{forest}
+\caption{Parse Tree (CST) showing the full syntactic derivation.}
+\end{figure}
+
+\subsection*{2. Abstract Syntax Tree (AST)}
+
+\begin{figure}[H]
+\centering
+\begin{forest}
+  % Define styles
+  for tree={
+    draw,
+    -latex,
+    anchor=north,
+    font=\ttfamily\small,
+    l sep=10pt,
+    s sep=15pt % Give the AST a bit more horizontal room
+  },
+  % Style for AST Operations
+  ast node/.style={font=\ttfamily\small\bfseries, align=center},
+  % Style for Terminals/values
+  term node/.style={font=\ttfamily\small, fill=gray!10, align=center}
+
+  [ASSIGN, ast node
+    [IDENTIFIER, ast node
+      [isBalanced, term node]
+    ]
+    [CALL, ast node
+      [IDENTIFIER, ast node
+        [check\_balance, term node]
+      ]
+      [IDENTIFIER, ast node
+        [r1, term node]
+      ]
+    ]
+  ]
+\end{forest}
+\caption{Abstract Syntax Tree (AST) showing the semantic structure.}
+\end{figure}
+
+
+
+
+
+
+
+
+% \subsection{2.2 Abstract Syntax Tree (AST)}
+% The Abstract Syntax Tree (AST) for the specific statement \texttt{isBalanced = check\_balance(r1);} is rendered below. The AST represents the hierarchical semantic structure of the statement, abstracting away syntactic sugar like parentheses and semicolons. The root of this statement is the assignment operation.
+
+% \begin{figure}[h!]
+% \centering
+% % <<< FIXED: Replaced empty \Tree ] with the correct AST definition
+% \begin{tikzpicture}[every tree node/.style={align=center, text width=2.5cm}]
+% \Tree
+%     [.\texttt{=}
+%         [.\texttt{ID} \texttt{isBalanced} ]
+%         [.\texttt{CALL}
+%             [.\texttt{ID} \texttt{check\_balance} ]
+%             [.\texttt{ID} \texttt{r1} ]
+%         ]
+%     ]
+% \end{tikzpicture}
+% \caption{AST for \texttt{isBalanced = check\_balance(r1);}}
+% \label{fig:ast}
+% \end{figure}
+
+\section{Question 3: Intermediate Code Generation}
+This section provides the Three-Address Code (TAC) for the main operations of the Sci-PL source program. Temporary variables (e.g., t1, t2) are used to hold intermediate results from expressions, and labels (e.g., L1, L2) are used to manage the control flow for conditional and loop structures. Comments are prepended with \#.
+
+This translation explicitly handles the automatic type promotion from int to float specified in the language overview, as seen in operations like \texttt{y = x + 5.5;}.
+
+% <<< FIXED: Changed \begin{lstlisting}}] to use the new TACStyle
+% <<< FIXED: Removed stray '1's from code lines
+\begin{lstlisting}[style=TACStyle]
+--- Variable Declarations ---
+# Declarations (def) are processed by the symbol table. No TAC is generated.
+
+--- Assignment Statements ---
+# x = 10;
+x = 10
+
+# y = x + 5.5;
+# Requires type promotion (int -> float)
+t1 = (float) x
+t2 = t1 + 5.5
+y = t2
+
+# r1 = "2H2+O2->2H2O";
+r1 = "2H2+O2->2H2O"
+
+# r2 = "H2+O2->H2O";
+r2 = "H2+O2->H2O"
+
+# isBalanced = check_balance(r1);
+# Follows example: t2 = CALL check_balance(r1)
+t3 = CALL check_balance(r1)
+isBalanced = t3
+
+--- If-Else Control Structure ---
+# if (check_balance(r2)) {... } else {... }
+t4 = CALL check_balance(r2)
+GOTO_IF_FALSE t4 L1
+
+# True block
+# x = x + 1;
+t5 = x + 1
+x = t5
+GOTO L2
+
+L1: # Else block
+# x = x - 1;
+t6 = x - 1
+x = t6
+
+L2: # End if-else
+
+--- While Loop Control Structure ---
+# while (x > 5) {... }
+L3: # Loop start
+t7 = x > 5
+GOTO_IF_FALSE t7 L4
+
+# Loop body
+# y = y + 1.0;
+t8 = y + 1.0
+y = t8
+
+# x = x - 1;
+t9 = x - 1
+x = t9
+GOTO L3
+
+L4: # End while
+
+--- If Control Structure ---
+# if (isBalanced && (x < 10)) {... }
+t10 = x < 10
+t11 = isBalanced && t10
+GOTO_IF_FALSE t11 L5
+
+# True block
+# y = y * 2;
+# Requires type promotion (int -> float)
+t12 = (float) 2
+t13 = y * t12
+y = t13
+
+L5: # End if
+\end{lstlisting} % <<< FIXED: Changed \end{ch} to \end{lstlisting}
+
+\section{Question 4: Assembly Code Generation}
+Finally, this section provides a translation of the Three-Address Code from Section 3 into a MIPS-like pseudo-assembly language. We assume a load/store architecture. Variables are stored in a .data segment and loaded into registers for operations.
+\begin{itemize}
+\item Integer values use general-purpose registers (e.g., \$t0).
+\item Floating-point values use floating-point registers (e.g., \$f0).
+\item Function arguments are passed in \$a0 and return values in \$v0.
+\end{itemize}
+
+% <<< FIXED: Applied the correct 'Assembly' style
+\begin{lstlisting}[style=Assembly]
+.data
+# Variable storage
+x:          .word   0
+y:          .float  0.0
+isBalanced: .word   0
+r1:         .string "2H2+O2->2H2O"
+r2:         .string "H2+O2->H2O"
+
+# Constants used in the code
+const_5_5:  .float  5.5
+const_1_0:  .float  1.0
+const_2_0:  .float  2.0
+const_int_1:.word   1
+const_int_2:.word   2
+const_int_5:.word   5
+const_int_10:.word  10
+
+.text
+.globl main
+main:
+# x = 10; (TAC: x = 10)
+LI $t0, 10           # t0 = 10
+STORE $t0, x         # x = t0
+
+# y = x + 5.5; (TAC: t1 = (float)x, t2 = t1 + 5.5, y = t2)
+LOAD $t0, x          # t0 = x (int)
+CVT_I_F $f0, $t0     # f0 = (float)t0 (t1)
+LOAD_FLOAT $f1, const_5_5 # f1 = 5.5
+ADD_FLOAT $f2, $f0, $f1 # f2 = f0 + f1 (t2)
+STORE_FLOAT $f2, y   # y = f2
+
+# r1, r2 assignments are handled by .data initialization
+
+# isBalanced = check_balance(r1); (TAC: t3 = CALL..., isBalanced = t3)
+LOAD_ADDR $a0, r1    # a0 = address of r1
+JAL check_balance    # Call function
+# v0 holds return value (t3)
+STORE $v0, isBalanced # isBalanced = v0
+
+# if (check_balance(r2)) {... } else {... }
+# (TAC: t4 = CALL..., GOTO_IF_FALSE t4 L1)
+LOAD_ADDR $a0, r2    # a0 = address of r2
+JAL check_balance    # Call function
+# v0 holds return value (t4)
+BEQ $v0, $zero, L1   # if (v0 == 0) goto L1
+
+# True block: x = x + 1; (TAC: t5 = x + 1, x = t5)
+LOAD $t0, x
+ADDI $t1, $t0, 1     # t1 = t0 + 1 (t5)
+STORE $t1, x
+J L2                 # Skip else block
+
+L1: # Else block: x = x - 1; (TAC: t6 = x - 1, x = t6)
+LOAD $t0, x
+SUBI $t1, $t0, 1     # t1 = t0 - 1 (t6)
+STORE $t1, x
+
+L2: # End if-else
+
+# while (x > 5) {... } (TAC: L3:, t7 = x > 5, GOTO_IF_FALSE t7 L4)
+L3:
+LOAD $t0, x          # t0 = x
+LI $t1, 5            # t1 = 5
+SGT $t7, $t0, $t1    # t7 = (x > 5)
+BEQ $t7, $zero, L4   # if (t7 == 0) goto L4
+
+# Loop body: y = y + 1.0; (TAC: t8 = y + 1.0, y = t8)
+LOAD_FLOAT $f0, y    # f0 = y
+LOAD_FLOAT $f1, const_1_0 # f1 = 1.0
+ADD_FLOAT $f2, $f0, $f1 # f2 = y + 1.0 (t8)
+STORE_FLOAT $f2, y
+
+# x = x - 1; (TAC: t9 = x - 1, x = t9)
+LOAD $t0, x
+SUBI $t1, $t0, 1     # t1 = t0 - 1 (t9)
+STORE $t1, x
+J L3                 # Jump to loop start
+
+L4: # End while
+
+# if (isBalanced && (x < 10)) {... }
+# (TAC: t10 = x < 10, t11 = isBalanced && t10, GOTO_IF_FALSE t11 L5)
+
+# Check first condition: isBalanced
+LOAD $t0, isBalanced   # t0 = isBalanced
+BEQ $t0, $zero, L5   # Short-circuit: if (!isBalanced) goto L5
+
+# Check second condition: x < 10
+LOAD $t1, x          # t1 = x
+LI $t2, 10           # t2 = 10
+SLT $t10, $t1, $t2   # t10 = (x < 10)
+
+# t11 = t0 && t10
+AND $t11, $t0, $t10
+BEQ $t11, $zero, L5  # if (t11 == 0) goto L5
+
+# True block: y = y * 2;
+# (TAC: t12 = (float)2, t13 = y * t12, y = t13)
+LOAD_FLOAT $f0, y
+LOAD_FLOAT $f1, const_2_0 # f1 = 2.0 (t12)
+MUL_FLOAT $f2, $f0, $f1 # f2 = y * 2.0 (t13)
+STORE_FLOAT $f2, y
+
+L5: # End if
+
+# End of main program
+LI $v0, 10           # Syscall for exit
+SYSCALL
+\end{lstlisting}
+\end{document}

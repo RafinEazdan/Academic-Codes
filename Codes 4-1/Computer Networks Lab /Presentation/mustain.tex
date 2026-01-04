@@ -1,0 +1,73 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,}
+\usepackage{comment}
+\begin{document}
+
+% --- Frame 1: Environmental Impact of Networking ---
+\begin{frame}{Environmental Impact of Networking Devices}
+    \framesubtitle{Energy Consumption Factors}
+    
+    Networking devices contribute significantly to energy usage through:
+    \begin{itemize}
+        \item \textbf{CPU Processing}: Routing calculations and protocol operations
+        \item \textbf{Memory Usage}: Maintaining routing tables and network state
+        \item \textbf{Network Traffic}: Packet forwarding and processing load
+        \item \textbf{Protocol Overhead}: Update frequency and message processing
+    \end{itemize}
+    
+    \vspace{0.5cm}
+    \centering
+    \textit{Higher routing activity $\rightarrow$ More CPU usage $\rightarrow$ Higher energy consumption $\rightarrow$ Greater environmental impact}
+\end{frame}
+
+% --- Frame 3: Comparative Analysis ---
+\begin{frame}{Static vs Dynamic Routing: Environmental Comparison}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{3.5cm}|p{3.5cm}|}
+    \hline
+    \textbf{Parameter} & \textbf{Static Routing} & \textbf{RIP Dynamic Routing} \\ \hline
+    Configuration & Manual, simple & Automatic, complex \\ \hline
+    CPU Usage & \textcolor{green}{Low} & \textcolor{red}{High} \\ \hline
+    Memory Requirements & \textcolor{green}{Minimal} & \textcolor{red}{Significant} \\ \hline
+    Update Frequency & \textcolor{}{None} & \textcolor{red}{Every 30 seconds} \\ \hline
+    Network Overhead & \textcolor{green}{Zero} & \textcolor{red}{Regular updates} \\ \hline
+    Energy Consumption & \textcolor{green}{Low} & \textcolor{red}{High} \\ \hline
+    Environmental Impact & \textcolor{green}{Less} & \textcolor{red}{High} \\ \hline
+    \end{tabular}
+    \end{table}
+
+
+    
+\end{frame}
+
+% --- Frame 4: Energy-Efficient Practices ---
+\begin{frame}{Energy-Efficient Routing: Best Practices}
+    
+    \textbf{Protocol Optimization}
+    \begin{itemize}
+        \item \textbf{Adjust Update Intervals}: Increase RIP timers from 30 to 60+ seconds
+        \item \textbf{Use Passive Interfaces}: Prevent unnecessary routing updates
+        \item \textbf{Implement Route Summarization}: Reduce routing table size
+        \item \textbf{Choose Efficient Protocols}: Consider OSPF or EIGRP with better scaling
+    \end{itemize}
+    
+    \vspace{0.4cm}
+    
+    \textbf{Hardware Management}
+    \begin{itemize}
+        \item \textbf{Port Management}: Disable unused ports and interfaces
+        \item \textbf{Link Aggregation}: Consolidate traffic and power down idle links
+        \item \textbf{Power Scheduling}: Implement off-peak shutdown procedures
+        \item \textbf{Energy-Aware Hardware}: Use devices with power management features
+    \end{itemize}
+\end{frame}
+
+
+
+
+\end{document}

@@ -1,0 +1,44 @@
+$date
+	Sat Oct 05 12:35:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_left_rotate_4bit $end
+$var wire 4 ! Y [3:0] $end
+$var reg 4 " A [3:0] $end
+$scope module uut $end
+$var wire 4 # A [3:0] $end
+$var wire 4 $ Y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 $
+b1001 #
+b1001 "
+b11 !
+$end
+#10
+b1001 !
+b1001 $
+b1100 "
+b1100 #
+#20
+b1110 !
+b1110 $
+b111 "
+b111 #
+#30
+b10 !
+b10 $
+b1 "
+b1 #
+#40
